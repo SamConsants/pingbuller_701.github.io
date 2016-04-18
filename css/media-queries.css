@@ -63,7 +63,7 @@ nav {
     margin-right: 210px;
 }
 
-.white {
+section {
 	height: 385px;
 }
 
@@ -72,7 +72,7 @@ nav {
 	overflow: hidden;
 	margin-left: 0;
 	width: 350px;
-	height: 290px;
+	height: 296px;
 }
 
 .item p {
@@ -297,7 +297,7 @@ hgroup {
 }
 
 
-.white {
+section {
     height: 755px;
 }
 
@@ -421,20 +421,6 @@ nav {
     text-align: center;
     height: 40px;
 }
-
-/*
-.dropdown li a {
-    font-family: 'League_Gothic Regular', Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: #fff;    
-    text-align: center; 
-    text-transform: uppercase;
-    padding: 0;
-     border-bottom: 2px solid #EDBFFF;
-    line-height: 1.5;   
-    text-decoration: none;
-}
-*/
 
 .dropdown li a {
     text-decoration: none;
@@ -562,17 +548,22 @@ hgroup {
     white-space: normal;
 }
 
-.white {
+section {
     height: 712px;
 }
 
+.item p {
+    width: 260px;
+}
+
 .item {
-	background-size: 250px 230px;
-    width: 230px;
+    background-size: 295px 272px;
+    width: 300px;
     padding-right: 20px;
-    height: 285px;
+    height: 299px;
     overflow: hidden;
 }
+
 
 .blog {
     margin-top: 45px;
