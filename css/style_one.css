@@ -39,7 +39,7 @@ h6 {
 
 /*HEADER*/
 
-.wrapper {	
+.wrap {	
     width: 960px;
     margin: 0 auto;
 }
@@ -72,14 +72,14 @@ nav {
 	text-align: left;
 }
 
-.submenu,
-.dropdown,
-.menu {
+.dropdown--submenu,
+.header__dropdown,
+.header__menu {
 	padding: 0;
 }
 
 
-.menu {
+.header__menu {
 	float: right;
 	font-family: 'League_Gothic Regular' , Arial, Helvetica sans-serif;
 	font-size: 24px;
@@ -87,14 +87,14 @@ nav {
 	margin: 67px auto;		
 }
 
-.menu li {
+.header__menu li {
 	float:left;
 	text-decoration: none;
 	list-style: none;
 	padding: 0 0 0 44px;
 }
 
-.menu a {
+.header__menu a {
     font-family: 'League_Gothic Regular', Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	color: #fff;	
@@ -104,11 +104,11 @@ nav {
 	text-decoration: none;
 }
 
-.menu a:hover {
+.header__menu a:hover {
   border-bottom: 2px solid #EDBFFF;
 }
  
-.dropdown {
+.header__dropdown {
   display: none;
 }
 
@@ -193,7 +193,8 @@ hgroup {
 
 .radiobuttons {
 	text-align: right;
-	height: 168px;   	
+	height: 168px;  
+	margin-left: 52%;		
 }
 
 /*stile radiobuttons*/
@@ -395,6 +396,7 @@ section {
 
 .item h2 {	
 	color: #edbfff;	
+	margin-left: 0;
 }
 
 .item p {

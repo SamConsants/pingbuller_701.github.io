@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (max-width: 959px) {
 
-.wrapper {
+.wrap {
 	width: 768px;
 }
 
@@ -19,7 +19,7 @@ nav {
     text-align: left;
 }
 
- .menu {
+ .header__menu {
     display: block;
 	float: left;	
 }
@@ -61,6 +61,7 @@ nav {
 .radiobuttons {
     text-align: right;
     margin-right: 210px;
+    margin-left: 0;
 }
 
 section {
@@ -131,7 +132,7 @@ section {
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-.wrapper {
+.wrap {
 	width: 480px;
 }
 
@@ -153,18 +154,18 @@ nav {
     text-align: center;
 }
 
- .menu {
+.header__menu {
     display: none;	
 }
 
-.dropdown {
+.header__dropdown {
     display: block;
     width: 247px;
     margin: 20px auto;
     border-radius: 10px;
 }
 
-.dropdown li {
+.header__dropdown li {
     display: block;
     position: relative;
     text-align: center;
@@ -172,7 +173,7 @@ nav {
     /*width: 245px;*/
 }
 
-.dropdown li a {
+.header__dropdown li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -182,7 +183,7 @@ nav {
     border-bottom: 2px solid #EDBFFF;
 }
 
-.submenu {
+.dropdown--submenu {
     z-index: 1;
     display: none;
     position: absolute;
@@ -192,13 +193,13 @@ nav {
     border: 1px solid #000;
 }
 
-.submenu li {
+.dropdown--submenu li {
     display: block;
     background: rgba(37,6,57, 0.7);
     border-top: 1px solid #523E5A;
 }
 
-.submenu li a {
+.dropdown--submenu li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -208,26 +209,26 @@ nav {
     border-bottom: 2px solid #EDBFFF;
 }
 
-.submenu li:hover {
+.dropdown--submenu li:hover {
     background: rgba(17,13,19,0.8);
     border-bottom: 2px solid #EDBFFF;
 }
 
-.submenu li:last-child {
+.dropdown--submenu li:last-child {
     border-radius: 0 0 10px 10px;
 }
 
-.dropdown > li:hover {
+.header__dropdown > li:hover {
     background: rgba(37,6,57, 0.7);
     border-top: 1px solid #523E5A;
     border-radius: 10px 10px 0 0;
 }
 
-.submenu:last-child {
+.dropdown--submenu:last-child {
     border-radius: 0 0 10px 10px;
 }
 
-.dropdown > li:hover > .submenu {
+.header__dropdown > li:hover > .dropdown--submenu {
     display: block;
 }
 
@@ -276,7 +277,8 @@ hgroup {
 .radiobuttons {
     text-align: center;
     margin-right: 0; 
-    height: 95px;   
+     margin-left: 0;  
+    height: 95px; 
 }
 
 .radiobuttons input {
@@ -382,7 +384,7 @@ figure {
 
 @media (min-width: 320px) and (max-width: 479px) {
 
-.wrapper {
+.wrap {
 	width: 320px;
 }
 
@@ -404,25 +406,25 @@ nav {
     text-align: center;
 }
 
- .menu {
+.header__menu {
     display: none;  
 }
 
-.dropdown {
+.header__dropdown {
     display: block;
     width: 202px;
     margin: 20px auto;
     border-radius: 10px;
 }
 
-.dropdown li {
+.header__dropdown li {
     display: block;
     position: relative;
     text-align: center;
     height: 40px;
 }
 
-.dropdown li a {
+.header__dropdown li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -431,12 +433,12 @@ nav {
     line-height: 1.5;
 }
 
-.dropdown > li > a {
+.header__dropdown > li > a {
     border-bottom: 2px solid #EDBFFF;
     line-height: 1.5;
 }
 
-.submenu {
+.dropdown--submenu {
     z-index: 1;
     display: none;
     position: absolute;
@@ -446,32 +448,32 @@ nav {
     border: 1px solid #000;
 }
 
-.submenu li {
+.dropdown--submenu li {
     display: block;
     background: rgba(37,6,57, 0.7);
     border-top: 1px solid #523E5A;
 }
 
-.submenu li:hover {
+.dropdown--submenu li:hover {
     background: rgba(17,13,19,0.8);
     border-bottom: 2px solid #EDBFFF;
 }
 
-.submenu li:last-child {
+.dropdown--submenu li:last-child {
     border-radius: 0 0 10px 10px;
 }
 
-.dropdown > li:hover {
+.header__dropdown > li:hover {
     background: rgba(37,6,57, 0.7);
     border-top: 1px solid #523E5A;
     border-radius: 10px 10px 0 0;
 }
 
-.submenu:last-child {
+.dropdown--submenu:last-child {
     border-radius: 0 0 10px 10px;
 }
 
-.dropdown > li:hover > .submenu {
+.header__dropdown > li:hover > .dropdown--submenu {
     display: block;
 }
 
@@ -515,6 +517,7 @@ hgroup {
 .radiobuttons {
     text-align: center;
     margin-right: 0; 
+     margin-left: 0;  
     height: 95px;  
     padding: 20px 0 0 12px; 
 }
