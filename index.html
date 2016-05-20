@@ -7,11 +7,13 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style_one.css">
 	<link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/ie8.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
 	<title>Home Work 7-9 Vovk Anastasiya</title>
 </head>
 <body>
 	<header>
+        <!--[if lte IE 9]><div class="header"><![endif]-->
 		<div class="wrap">
 			<a href="#"><img class="logo" src="img/logo.png" alt="This is a logo"></a>			
 			<nav>				
@@ -38,6 +40,7 @@
 			</nav>	
 		</div>
 		<hgroup>
+            <!--[if lte IE 9]><div class="transparent"><![endif]-->
 			<div class=wrap>
 				<div class="hgroup">
 					<div class="hgroup__content">								
@@ -65,10 +68,12 @@
 				<label for="radio-4"><span></span></label>
 			</div>	
 		</div>
+        <!--[if IE 8]></div><![endif]-->
 	</header>
 
 	<!-- ASIDE -->
 	<aside>
+        <!--[if lte IE 9]><div class="aside"><![endif]-->
 		<div class="wrap">		
 			<div class="aside__content">
 				<div class="icon">
@@ -101,10 +106,12 @@
 				<input type="submit" value="Read more">
 			</div>				
 		</div>
+        <!--[if IE 8]></div><![endif]-->
 	</aside>
 
 	<!-- САМАЯ Моя БОлЬШАЯ ПРОБЛЕМА БЕЛЫЙ БЛОК SECTION-->
 	<section>
+        <!--[if lte IE 9]><div class="white_text"><![endif]-->
 		<div class="wrap">			
 			<div class="item">		
 				<a href="#" class="item__link"></a>
@@ -145,11 +152,13 @@
 					<input type="submit" value="More Blog posts">
 				</div>
 			</div>
-		</div>				
+		</div>
+        <!--[if IE 8]></div><![endif]-->
 	</section>
 
 	<!-- Логотипы внизу -->
-	<figure> 
+	<figure>
+        <!--[if lte IE 9]><div class="update"><![endif]-->
 		<div class="wrap">
 			<div class="marks__logo">
 				<a href="#" class="logo1"></a>
@@ -159,11 +168,13 @@
 				<a href="#" class="logo5"></a>
 				<a href="#" class="logo6"></a>
 			</div>
-		</div>		
+		</div>
+        <!--[if IE 8]></div><![endif]-->
 	</figure>
 
 	<!-- FOOTER -->
 	<footer>
+        <!--[if lte IE 9]><div class="footer"><![endif]-->
 		<div class="footer__news">
 			<div class="wrap">
 				<div class="news__box">
@@ -198,11 +209,12 @@
 					</ul>			
 				</div>
 				<div class="footer__in">
-					<p>Designer by <b>Pinbull AS</b></p>
+					<p>Designer by <span>Pinbull AS</span></p>
 				</div>
 			</div>
 
 		</div>
+        <!--[if IE 8]></div><![endif]-->
 	</footer>
 </body>
 </html>
